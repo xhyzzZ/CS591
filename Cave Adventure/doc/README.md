@@ -20,8 +20,9 @@ For the main parts, you can refer to the OOD document file. But here I want to c
 * For more detailed about the OOD Design, you can look at my OOD document.
 
 ### Some tips need to be attentioned
-* I use IDEA to build the project, if you are encountered some problems when not using IDEA, please contact me ASAP.
-* In the doc folder, I put my Diagram.jpg and 
+* I use IDEA to build the project, if you are encountered some problems when using Eclipse or terminal, please contact me ASAP.
+* In the doc folder, I put my Diagram.jpg and random song text file. In the txt file, I put some animal words in it, so that in the first penance, I can generate some random songs for each time running this function. Only one need to be attentioned: 
+in the Random class, generateSongs fucntion,
 * 
 
 
