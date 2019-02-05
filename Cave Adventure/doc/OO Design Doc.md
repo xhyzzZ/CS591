@@ -85,8 +85,54 @@ You have ventured deeper into the cave, what would you like to do?
 The title is one of the functions defined in adventures class called getGoDeeper( ).
 
 ## Monsters classes
+This class defines and initializes accessor method for getting monster’s name. For example,
+- Object composition:
+```
+private String goblin;  // goblin's name
 
+```
+- struct method:
+```
+public Monsters() {
+    //initialized object
+    this.goblin = "goblin";
+}
+```
+- accessor method:
+```
+public String getGoblin() {
+    // return monster's name
+    return goblin;
+}
+```
 ## Treasures classes
+This class defines accessor methods and methods of treasures which needed to be picked up. For example,
+- Object composition:
+```
+private String sword;;  // sword name
+
+```
+- struct method:
+```
+public Treasures() {
+    //initialized object
+    this.sword = "sword";
+}
+```
+- accessor method:
+```
+public String getSword() {
+    // return treasure's name
+    return sword;
+}
+```
+-other method:
+```
+public String pickUpSword() {
+    // return sentence for picking up the treasure 
+    return "Pick up the golden" + " " + this.getSword();
+}
+```
 
 ## Random classes
 
