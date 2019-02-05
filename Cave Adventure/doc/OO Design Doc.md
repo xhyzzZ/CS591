@@ -179,7 +179,6 @@ public void acceptChallenge(String decision)
 ```
 public void readyToEnter(String decision)
 public void enterTheMouthOfCave(String decision)
-
 ```
 * third part -- second adventure part
 ```
