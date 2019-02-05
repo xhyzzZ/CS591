@@ -169,3 +169,32 @@ public String afterSecondGoblinPenance()
 ```
 
 ## Helperfunctions classes
+This class contains all the methods in the whole lifecycle of the game, I divide them into five parts.
+* first part -- welcome part
+```
+public void welcome()
+public void acceptChallenge(String decision)
+```
+* second part -- first adventure part
+```
+public void readyToEnter(String decision)
+public void enterTheMouthOfCave(String decision)
+
+```
+* third part -- second adventure part
+```
+public void moveOnToDeeper(String decision)
+public void enterDeeper(String decision)
+```
+* forth part -- third adventure part
+```
+public void moveToTheEnd(String decision)
+public void enterTheEnd(String decision)
+```
+* fifth part -- final part
+```
+public void moveToTheFinalMission(String decision)
+public void enterFinalMission(String decision)
+```
+What’s more, there are several special situations when encountered like you still want to pick up treasures when you are after second penance or attack the monster after first or second penance. 
+At last, main method is based on class of Helperfunctions.
