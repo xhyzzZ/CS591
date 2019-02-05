@@ -9,6 +9,13 @@ The java program has seven classes and one main function.
 * [Helperfunctions classes](#Helperfunctions-classes)
 
 ## Actions classes
+This class defines actions what should you do when you enter into new place(accessor method).
+Object composition:
+```
+private String cleanCobWebs; // first action
+private String turnOffWaterSupply; // second action
+private String performPoetry; // third action
+```
 
 ## Adventures classes
 
