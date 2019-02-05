@@ -10,7 +10,7 @@ The java program has seven classes and one main function.
 
 ## Actions classes
 This class defines actions what should you do when you enter into new place(accessor method).
-Object composition:
+- Object composition:
 ```
 private String cleanCobWebs; // first action
 private String turnOffWaterSupply; // second action
