@@ -12,13 +12,19 @@ The java program has seven classes and one main function.
 This class defines actions what should you do when you enter into new place(accessor method). For example,
 - Object composition:
 ```
-private String cleanCobWebs; // first action
+private String cleanCobWebs;  // first action
 
+```
+- struct method:
+```
+public Actions() {
+    this.cleanCobWebs = "clean up all the cob webs";  //initialize object
+}
 ```
 - accessor method:
 ```
 public String getCleanCobWebs() {
-    return cleanCobWebs;     // get the first action
+    return cleanCobWebs;      // get the first action
 }
 ```
 When you have met this question:
