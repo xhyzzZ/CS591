@@ -135,6 +135,19 @@ public String pickUpSword() {
 ```
 
 ## Random classes
+This class defines method in generating random animal in song Old MacDonald had a Farm called generateSongs( ), defines final mission about randomly selecting and sorting word method called generateWords( ), define method of randomly select one of the adventures to have a second treasure function called generateRandomArray( ).
+```
+public String generateWords()
+// the core part is random sort 
+Collections.shuffle(words);
+```
+```
+// pay attention to the path, the path is in your computer
+public String generateSongs()
+```
+```
+public boolean[] generateRandomArray()
+```
 
 ## Penances classes
 
