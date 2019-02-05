@@ -126,7 +126,7 @@ public String getSword() {
     return sword;
 }
 ```
--other method:
+- other method:
 ```
 public String pickUpSword() {
     // return sentence for picking up the treasure 
