@@ -135,20 +135,37 @@ public String pickUpSword() {
 ```
 
 ## Random classes
-This class defines method in generating random animal in song Old MacDonald had a Farm called generateSongs( ), defines final mission about randomly selecting and sorting word method called generateWords( ), define method of randomly select one of the adventures to have a second treasure function called generateRandomArray( ).
+This class defines method in generating random animal in song Old MacDonald had a Farm called generateSongs( ). 
 ```
 public String generateWords()
 // the core part is random sort 
 Collections.shuffle(words);
 ```
+Define final mission about randomly selecting and sorting word method called generateWords( ).
 ```
 // pay attention to the path, the path is in your computer
 public String generateSongs()
 ```
+Define method of randomly select one of the adventures to have a second treasure function called generateRandomArray( ).
 ```
 public boolean[] generateRandomArray()
 ```
 
 ## Penances classes
+This class define penance methods like singing MacDonald or Christmas called songOldMacDonald( ) and songChristmas( ). 
+```
+// generate random animal word using method in class Random
+public String songOldMacDonald()
+
+public String songChristmas()
+```
+Define penance methods about picking up treasure without slaying the monsters for the first and second time. For example,
+```
+// pick up treasure without slaying the monsters
+public String goblinPenance()
+
+// pick up second treasure without slaying the monsters
+public String afterSecondGoblinPenance()
+```
 
 ## Helperfunctions classes
