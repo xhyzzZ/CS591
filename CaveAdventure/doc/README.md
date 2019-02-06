@@ -21,6 +21,7 @@ For the main parts, you can refer to the OOD document file. But here I want to c
 
 ### Some tips need to be attentioned
 * I use [IDEA](https://www.jetbrains.com/idea/) to build the project, if you are encountered some problems when using Eclipse or terminal, please contact me ASAP.
+* When comes into the final mission about generating random poem, if you want to end the mission, you should type word "end", that's the sign to end the whole game.
 * In the doc folder, I put my Diagram.jpg and random song text file. In the txt file, I put some animal words in it, so that in the first penance, I can generate some random songs for each time running this function. Only one need to be attentioned: 
 in the Random class, generateSongs fucntion:
 ```
